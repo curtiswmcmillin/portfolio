@@ -23,7 +23,7 @@ export function Footer() {
             <LinkedInIcon className="size-5" />
           </a>
           <a
-            href="https://github.com/curtismcmillin"
+            href="https://github.com/curtiswmcmillin"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"

@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const skillCategories = [
   {
@@ -68,10 +68,10 @@ export function About() {
           <Button
             variant="outline"
             size="lg"
-            render={<a href="/resume.pdf" download />}
+            render={<a href="https://drive.google.com/file/d/1dxfc-a0bEvnicIxFUTa2y4T0wx6mtkYs/view?usp=sharing" target="_blank" rel="noopener noreferrer" />}
           >
-            <Download className="size-4" data-icon="inline-start" />
-            Download Resume
+            <ExternalLink className="size-4" data-icon="inline-start" />
+            View Resume
           </Button>
         </div>
       </div>

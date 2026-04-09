@@ -26,7 +26,7 @@ export function Hero() {
             size="icon"
             render={
               <a
-                href="https://github.com/curtismcmillin"
+                href="https://github.com/curtiswmcmillin"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
