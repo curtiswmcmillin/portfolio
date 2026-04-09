@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import { GitHubIcon, LinkedInIcon, UpworkIcon } from "@/components/icons";
+import { LinkedInIcon, UpworkIcon } from "@/components/icons";
 
 export function Footer() {
   return (
@@ -30,15 +30,6 @@ export function Footer() {
             aria-label="Upwork"
           >
             <UpworkIcon className="size-5" />
-          </a>
-          <a
-            href="https://github.com/curtiswmcmillin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="GitHub"
-          >
-            <GitHubIcon className="size-5" />
           </a>
         </div>
         <p className="text-sm text-muted-foreground">

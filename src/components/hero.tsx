@@ -1,5 +1,5 @@
 import { Mail, ChevronDown } from "lucide-react";
-import { GitHubIcon, LinkedInIcon, UpworkIcon } from "@/components/icons";
+import { LinkedInIcon, UpworkIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -21,20 +21,6 @@ export function Hero() {
         </p>
 
         <div className="flex items-center justify-center gap-3 pt-2">
-          <Button
-            variant="ghost"
-            size="icon"
-            render={
-              <a
-                href="https://github.com/curtiswmcmillin"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-              />
-            }
-          >
-            <GitHubIcon className="size-5" />
-          </Button>
           <Button
             variant="ghost"
             size="icon"
