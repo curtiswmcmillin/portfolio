@@ -34,4 +34,7 @@ npm run lint   # ESLint
 
 ## Deployment
 
-Deploy to Vercel — purely static, no environment variables needed.
+- Hosted on Vercel (Git integration — pushes to `main` auto-deploy)
+- Custom domain: cloud-first-consulting.com (DNS via Vercel nameservers)
+- Domain registered at Squarespace, nameservers pointed to Vercel
+- Purely static — no environment variables needed
