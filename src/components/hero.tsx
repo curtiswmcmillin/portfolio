@@ -1,5 +1,5 @@
 import { Mail, ChevronDown } from "lucide-react";
-import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, UpworkIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -48,6 +48,20 @@ export function Hero() {
             }
           >
             <LinkedInIcon className="size-5" />
+          </Button>
+          <Button
+            variant="ghost"
+            size="icon"
+            render={
+              <a
+                href="https://www.upwork.com/freelancers/curtiswmcmillin"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Upwork"
+              />
+            }
+          >
+            <UpworkIcon className="size-5" />
           </Button>
           <Button
             variant="ghost"
