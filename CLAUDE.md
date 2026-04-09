@@ -27,6 +27,11 @@ npm run build  # Production build
 npm run lint   # ESLint
 ```
 
+## Repository
+
+- GitHub: https://github.com/curtiswmcmillin/portfolio
+- Owner: curtiswmcmillin
+
 ## Deployment
 
 Deploy to Vercel — purely static, no environment variables needed.
