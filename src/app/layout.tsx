@@ -16,16 +16,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Curtis McMillin — Software Engineer",
+  metadataBase: new URL("https://cloud-first-consulting.com"),
+  title: "Curtis McMillin — Full-Stack Software Engineer",
   description:
-    "Portfolio of Curtis McMillin, a full-stack software engineer building production applications with Next.js, AI integration, and offline-first PWAs.",
+    "Freelance software engineer building production SaaS applications with Next.js, React, TypeScript, Supabase, Stripe, and AI integration (Claude, OpenAI). Specializing in offline-first PWAs and full-stack development.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Curtis McMillin — Software Engineer",
+    title: "Curtis McMillin — Full-Stack Software Engineer",
     description:
-      "Full-stack software engineer building production applications with Next.js, AI integration, and offline-first PWAs.",
+      "Freelance software engineer building production SaaS applications with Next.js, Supabase, Stripe, and AI integration.",
     url: "https://cloud-first-consulting.com",
     siteName: "Curtis McMillin",
     type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Curtis McMillin — Full-Stack Software Engineer",
+    description:
+      "Freelance software engineer building production SaaS applications with Next.js, Supabase, Stripe, and AI integration.",
   },
 };
 
