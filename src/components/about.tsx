@@ -4,33 +4,85 @@ import { ExternalLink } from "lucide-react";
 
 const skillCategories = [
   {
-    label: "Frontend",
-    skills: ["React 19", "Next.js 16", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    label: "Languages & Frameworks",
+    skills: [
+      "TypeScript",
+      "JavaScript",
+      "C# / .NET",
+      "React",
+      "Next.js",
+      "Angular",
+      "Node.js",
+      "Tailwind CSS",
+      "shadcn/ui",
+    ],
   },
   {
-    label: "Backend",
-    skills: ["Node.js", "REST APIs", "Supabase (PostgreSQL + Auth)"],
+    label: "Cloud & Infrastructure",
+    skills: [
+      "Azure",
+      "Vercel",
+      "AWS",
+      "Docker",
+      "Microsoft Foundry",
+      "PWA / Service Workers",
+    ],
   },
   {
-    label: "AI / ML",
-    skills: ["Anthropic Claude (Vision + Chat)", "Azure OpenAI"],
+    label: "Data",
+    skills: [
+      "SQL Server",
+      "PostgreSQL",
+      "Supabase",
+      "Entity Framework",
+      "MySQL",
+      "Firebase",
+      "Oracle",
+      "Elasticsearch",
+    ],
   },
   {
-    label: "Payments",
-    skills: ["Stripe Subscriptions", "Checkout", "Webhooks", "Customer Portal"],
+    label: "AI Development",
+    skills: [
+      "Claude API",
+      "Claude Code",
+      "Claude Vision",
+      "Azure OpenAI",
+      "GitHub Copilot+",
+      "MCP Servers",
+    ],
   },
   {
-    label: "Infrastructure",
-    skills: ["Vercel", "PWA / Service Workers", "Offline Sync"],
+    label: "Payments & Integrations",
+    skills: [
+      "Stripe (Subscriptions, Checkout, Webhooks, Customer Portal)",
+      "Twilio",
+      "SendGrid",
+      "Resend",
+      "Dynamics 365",
+      "Box",
+    ],
   },
   {
-    label: "Testing",
-    skills: ["Vitest", "Playwright"],
+    label: "DevOps & Testing",
+    skills: [
+      "GitHub Actions",
+      "Azure DevOps",
+      "Vitest",
+      "Playwright",
+    ],
   },
-  {
-    label: "APIs",
-    skills: ["NHTSA", "Yelp Fusion", "YouTube Data", "API Ninjas"],
-  },
+];
+
+const notableClients = [
+  "NASA",
+  "PwC",
+  "Bain & Company",
+  "Devon Energy",
+  "LPGA",
+  "Siemens",
+  "Allstate",
+  "Avanade",
 ];
 
 export function About() {
@@ -40,11 +92,33 @@ export function About() {
         <div className="animate-on-scroll space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tight">About</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Full-stack software engineer focused on building production-ready
-            applications with modern web technologies. I specialize in Next.js,
-            AI integration, and offline-first progressive web apps — taking
-            projects from initial architecture through deployment and billing.
+            Senior full-stack engineer with 8,000+ delivered hours and a
+            Top-Rated Plus rating on Upwork. I&apos;ve continuously adapted
+            across every major platform shift — from client-server through
+            cloud-native and AI-integrated development — while staying
+            hands-on, shipping production code, and owning the full lifecycle
+            from requirements through deployment and operations.
           </p>
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+            Currently specializing in React, Next.js, Angular, and .NET on
+            Azure and Vercel, with deep experience integrating AI into
+            production products. Equally comfortable building greenfield SaaS
+            from scratch, rescuing struggling codebases, or scaling existing
+            platforms.
+          </p>
+        </div>
+
+        <div className="animate-on-scroll space-y-3">
+          <h3 className="text-center text-sm font-medium text-muted-foreground">
+            Notable Clients
+          </h3>
+          <div className="flex flex-wrap justify-center gap-2">
+            {notableClients.map((client) => (
+              <Badge key={client} variant="outline">
+                {client}
+              </Badge>
+            ))}
+          </div>
         </div>
 
         <div className="animate-on-scroll space-y-6">
