@@ -16,8 +16,8 @@ export function Hero() {
           Software Engineer
         </p>
         <p className="mx-auto max-w-xl text-base text-muted-foreground/80">
-          Building full-stack applications with AI integration, offline-first
-          PWAs, and subscription billing — from concept to production.
+          Building native iOS and full-stack web applications with AI
+          integration and subscription billing — from concept to production.
         </p>
 
         <div className="flex items-center justify-center gap-3 pt-2">

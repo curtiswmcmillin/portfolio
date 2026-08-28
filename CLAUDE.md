@@ -2,7 +2,9 @@
 
 @../CLAUDE.md
 
-Curtis McMillin's portfolio site showcasing four full-stack applications.
+Curtis McMillin's portfolio site showcasing FirstCut, Wrench, and RenoLedger.
+FirstCut and Wrench are native iOS apps with Next.js backends; RenoLedger is
+a working PWA proof of concept.
 
 ## Tech Stack
 

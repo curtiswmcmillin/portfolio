@@ -8,8 +8,8 @@ export function Projects() {
         <div className="animate-on-scroll text-center">
           <h2 className="text-3xl font-bold tracking-tight">Projects</h2>
           <p className="mt-2 text-muted-foreground">
-            Four production applications — each with AI integration, Stripe
-            billing, and real users.
+            Two native iOS apps in production, plus a working PWA proof of
+            concept — all with AI integration.
           </p>
         </div>
 

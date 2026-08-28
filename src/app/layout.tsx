@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://cloud-first-consulting.com"),
   title: "Curtis McMillin — Full-Stack Software Engineer",
   description:
-    "Freelance software engineer building production SaaS applications with Next.js, React, TypeScript, Supabase, Stripe, and AI integration (Claude, OpenAI). Specializing in offline-first PWAs and full-stack development.",
+    "Freelance software engineer building production applications with Next.js, React, TypeScript, Swift, Supabase, Stripe, and AI integration (Claude, OpenAI). Specializing in native iOS apps and full-stack development.",
   alternates: {
     canonical: "/",
   },

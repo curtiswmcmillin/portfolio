@@ -8,6 +8,7 @@ const skillCategories = [
     skills: [
       "TypeScript",
       "JavaScript",
+      "Swift / SwiftUI",
       "C# / .NET",
       "React",
       "Next.js",
@@ -25,6 +26,7 @@ const skillCategories = [
       "AWS",
       "Docker",
       "Microsoft Foundry",
+      "RevenueCat",
       "PWA / Service Workers",
     ],
   },
@@ -100,8 +102,9 @@ export function About() {
           </p>
           <p className="mx-auto max-w-2xl text-muted-foreground">
             Today that means React, Next.js, and .NET on Azure and Vercel,
-            with AI woven into the product rather than bolted on — the four
-            apps below all ship real AI features to real users. I take on
+            with AI woven into the product rather than bolted on — the apps
+            below include two native iOS products and a working PWA proof of
+            concept, all with real AI features. I take on
             greenfield builds, rescue troubled codebases, and scale platforms
             that have outgrown their first architecture.
           </p>
