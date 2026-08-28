@@ -13,7 +13,6 @@ const skillCategories = [
       "React",
       "Next.js",
       "Angular",
-      "Node.js",
       "Tailwind CSS",
       "shadcn/ui",
     ],
@@ -26,8 +25,7 @@ const skillCategories = [
       "AWS",
       "Docker",
       "Microsoft Foundry",
-      "RevenueCat",
-      "PWA / Service Workers",
+      "RevenueCat"
     ],
   },
   {
@@ -46,12 +44,9 @@ const skillCategories = [
   {
     label: "AI Development",
     skills: [
-      "Claude API",
+      "Cursor",
       "Claude Code",
-      "Claude Vision",
-      "Azure OpenAI",
-      "GitHub Copilot+",
-      "MCP Servers",
+      "Codex"
     ],
   },
   {
@@ -81,6 +76,7 @@ const notableClients = [
   "PwC",
   "Bain & Company",
   "Devon Energy",
+  "Cheseapeake Energy",
   "LPGA",
   "Siemens",
   "Allstate",
@@ -101,7 +97,7 @@ export function About() {
             now AI-integrated development.
           </p>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Today that means React, Next.js, and .NET on Azure and Vercel,
+            Today that means Angular, React, TypeScript, and C#/.NET on Azure and Vercel,
             with AI woven into the product rather than bolted on — the apps
             below include two native iOS products and a working PWA proof of
             concept, all with real AI features. I take on

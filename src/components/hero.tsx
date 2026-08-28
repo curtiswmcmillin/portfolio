@@ -13,7 +13,7 @@ export function Hero() {
           Curtis McMillin
         </h1>
         <p className="text-xl text-muted-foreground sm:text-2xl">
-          Software Engineer
+          Senior Software Engineer
         </p>
         <p className="mx-auto max-w-xl text-base text-muted-foreground/80">
           Building full-stack applications with AI integration — web, cloud,
