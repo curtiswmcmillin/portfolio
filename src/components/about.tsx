@@ -92,19 +92,18 @@ export function About() {
         <div className="animate-on-scroll space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tight">About</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Senior full-stack engineer with 8,000+ delivered hours and a
-            Top-Rated Plus rating on Upwork. I&apos;ve continuously adapted
-            across every major platform shift — from client-server through
-            cloud-native and AI-integrated development — while staying
-            hands-on, shipping production code, and owning the full lifecycle
-            from requirements through deployment and operations.
+            Software engineer since the early 1990s, Top-Rated Plus on
+            Upwork. I&apos;ve shipped production code end-to-end —
+            requirements through deployment and operations — through every
+            major shift in the field: client-server, web, cloud-native, and
+            now AI-integrated development.
           </p>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Currently specializing in React, Next.js, Angular, and .NET on
-            Azure and Vercel, with deep experience integrating AI into
-            production products. Equally comfortable building greenfield SaaS
-            from scratch, rescuing struggling codebases, or scaling existing
-            platforms.
+            Today that means React, Next.js, and .NET on Azure and Vercel,
+            with AI woven into the product rather than bolted on — the four
+            apps below all ship real AI features to real users. I take on
+            greenfield builds, rescue troubled codebases, and scale platforms
+            that have outgrown their first architecture.
           </p>
         </div>
 
